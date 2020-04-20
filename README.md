@@ -9,7 +9,7 @@ facial landmarks in images.
 These instructions target builds in Linux,
 specifically Windows Subsystem for Linux (WSL) and Python 3.6 in Visual Studio Code.
 
-Install Dependencies:
+**Install Dependencies:**
 ```
 $ sudo -H apt-get install build-essential cmake
 $ sudo -H apt-get install libgtk-3-dev
