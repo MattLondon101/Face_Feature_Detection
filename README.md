@@ -37,10 +37,16 @@ Labeled example images are exhibited in the detected_images directory.
 
 ---
 <p align="center">
-**Matt London - Original Image**
+Original Image
 </p>
 <p align="center">
   <img width="504" height="504" src="https://github.com/MattLondon101/Face_Feature_Detection/blob/master/images/me1.jpg?raw=true"
 </p>
 
+<p align="center">
+Labelled Image
+</p>
+<p align="center">
+<img width="504" height="504" src="https://github.com/MattLondon101/Face_Feature_Detection/blob/master/detected_images/me1.png?raw=true"
+</p>
 
