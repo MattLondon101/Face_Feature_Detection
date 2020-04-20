@@ -4,7 +4,8 @@ Facial feature detection in Linux with Python
 face_utils.py and facial_landmarks.py use the pre-trained facial landmark detector in dlib to overlay label
 facial landmarks in images.
 
-**Instructions**
+## Instructions
+
 These instruction targeted to builds in Linux.
 Specifically, Windows Subsystem for Linux (WSL) and Python 3.6 in Visual Studio Code.
 
