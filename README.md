@@ -22,6 +22,11 @@ $ pip3 install dlib
 ```
 See comments in cv_imports.py and run to import useful packages for computer vision.
 
+**Label and Visualize Facial Landmarks**
+The program is run with the following code structure:
+```
+$ python facial_landmarks.py --shape-predictor shape_predictor_68_face_landmarks.dat --image images/*image.jpg*
+
 
 
 
