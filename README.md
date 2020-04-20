@@ -43,7 +43,7 @@ Original Image
   <img width="504" height="504" src="https://github.com/MattLondon101/Face_Feature_Detection/blob/master/images/me1.jpg?raw=true"
 </p>
 
---
+---
 <p align="center">
 Labelled Image
 </p>
