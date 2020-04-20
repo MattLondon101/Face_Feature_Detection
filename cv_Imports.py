@@ -1,8 +1,10 @@
+# Run this file to import useful computer vision packages.
+# If package not already installed, use subprocess (line 7) to install (e.g. replace nibabel with needed package)
 import subprocess
 import sys
 import pip
 import glob
-subprocess.check_call(["python",'-m','pip','install','--upgrade','nibabel'])
+#subprocess.check_call(["python",'-m','pip','install','--upgrade','nibabel'])
 import nibabel
 import natsort
 from natsort import natsorted,ns
