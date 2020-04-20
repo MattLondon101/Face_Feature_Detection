@@ -35,6 +35,7 @@ Visualized images can be saved by right clicking image and clicking "Save Curren
 Labeled example images are exhibited in the detected_images directory.
 
 
+
 ![Matt London - Original Image](https://github.com/MattLondon101/Face_Feature_Detection/blob/master/images/me1.jpg?raw=true)
 
 
