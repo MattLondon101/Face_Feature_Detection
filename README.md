@@ -18,7 +18,7 @@ $ pip3 install scipy
 $ pip3 install scikit-image
 $ pip3 install opencv-python
 $ pip3 install dlib
-'''
+```
 (See comments in cv_imports.py and run to import useful packages for computer vision.)
 
 
