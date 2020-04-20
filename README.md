@@ -30,7 +30,7 @@ The program is run with the following code structure:
 $ python facial_landmarks.py --shape-predictor shape_predictor_68_face_landmarks.dat --image images/me1.jpg
 ```
 me1.jpg is one of the example images in the images directory. You can add your own to the images directory.
-Visualizations will appear in X11 window, which is installed in dependencies with "sudo -H apt-get install libgtk-3-dev"
+Visualizations will appear in X11/XMING window.
 Visualized images can be saved by right clicking image and clicking "Save Current Image".
 Labeled example images are exhibited in the detected_images directory.
 
