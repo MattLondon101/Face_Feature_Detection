@@ -8,15 +8,17 @@ facial landmarks in images.
 
 These instructions target builds in Linux,
 specifically Windows Subsystem for Linux (WSL) and Python 3.6 in Visual Studio Code.
+In Linux terminal run 'sudo -s' and enter password to run the program as root.
 
 **Install Dependencies:**
 ```
 $ sudo -H apt-get install build-essential cmake
-$ sudo -H apt-get install libgtk-3-dev
+$ sudo -H apt-get install libgtk-3-dev 
 $ sudo -H apt-get install libboost-all-dev
 $ pip3 install numpy
 $ pip3 install scipy
 $ pip3 install scikit-image
+$ pip3 install imutils
 $ pip3 install opencv-python
 $ pip3 install dlib
 ```
@@ -25,8 +27,12 @@ See comments in cv_imports.py and run to import useful packages for computer vis
 **Label and Visualize Facial Landmarks**
 The program is run with the following code structure:
 ```
-$ python facial_landmarks.py --shape-predictor shape_predictor_68_face_landmarks.dat 
---image images/image.jpg
+$ python facial_landmarks.py --shape-predictor shape_predictor_68_face_landmarks.dat --image images/me1.jpg
+```
+me1.jpg is one of the example images in the images directory. You can add your own to the images directory.
+Visualizations will appear in X11 window, which is installed in dependencies with "sudo -H apt-get install libgtk-3-dev"
+Visualized images can be saved by right clicking image and clicking "Save Current Image".
+Labeled example images are exhibited in the detected_images directory.
 
 
 
