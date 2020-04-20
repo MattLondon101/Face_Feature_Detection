@@ -1,5 +1,6 @@
 # Run this file to import useful computer vision packages.
 # If package not already installed, use subprocess (line 7) to install (e.g. replace nibabel with needed package)
+# Use 'imsh' function, at bottom, to quickly display an image.
 import subprocess
 import sys
 import pip
