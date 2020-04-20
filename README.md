@@ -6,7 +6,7 @@ facial landmarks in images.
 
 ## Instructions
 
-These instruction targeted to builds in Linux.
+These instructions target builds in Linux.
 Specifically, Windows Subsystem for Linux (WSL) and Python 3.6 in Visual Studio Code.
 
 Install Dependencies:
