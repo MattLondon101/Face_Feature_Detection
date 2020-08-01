@@ -10,6 +10,9 @@ These instructions target builds in Linux,
 specifically Windows Subsystem for Linux (WSL) and Python 3.6 in Visual Studio Code.
 In Linux terminal run 'sudo -s' and enter password to run the program as root.
 
+**Download shape_predictor_68_face_landmarks.dat** from:
+https://github.com/AKSHAYUBHAT/TensorFace/blob/master/openface/models/dlib/shape_predictor_68_face_landmarks.dat
+
 **Install Dependencies:**
 ```
 $ sudo -H apt-get install build-essential cmake
